@@ -1,0 +1,20 @@
+MAD DOG DEN — Cómo activar emails, descargas y comentarios
+============================================================
+
+1) DESCARGAS
+   - Carpeta: documentos/
+   - Ya hay un relato de ejemplo: el-primer-sangrado.html y .txt
+   - Para añadir más: sube PDF o archivos a documentos/ y enlázalos en documentos.html
+
+2) EMAILS AL SUSCRIBIRSE Y COMENTARIOS
+   - Crea cuenta GRATIS en: https://formspree.io
+   - Crea un formulario → te dan un ID (ej: xyzabcde)
+   - Abre config.js y reemplaza:
+       formspreeSubscribe: "TU_ID_SUSCRIPCION"
+       formspreeComments: "TU_ID_COMENTARIOS"
+   - En Formspree puedes activar "auto-reply" para que el lector reciba también un email de bienvenida
+
+3) SUBIR EL SITIO
+   - Sube TODA la carpeta (html + config.js + documentos/) a Netlify, GitHub Pages, etc.
+   - No subas solo un HTML suelto si quieres que funcionen los enlaces entre páginas
+
